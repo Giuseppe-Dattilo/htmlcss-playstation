@@ -1,0 +1,104 @@
+/* Generics */
+
+section{
+border: 1px dashed blue;
+}
+
+img{
+width: 100%;
+display: block;
+}
+
+/* Header */
+
+header{
+border: 1px dashed green;
+color: black;
+position: sticky;
+left: 0;
+top: 0;
+}
+
+#logo-sony{
+width: 80px;
+}
+
+/* BORDER DA CANCELLARE!!! */
+
+.row{
+border: 1px dashed dodgerblue;
+}
+
+.row > [class^='col']{
+border: 1px dashed red;
+}
+
+.row > [class^='off']{
+border: 1px dashed black;
+}
+
+/* Jumbotron */
+
+#jumbotron{
+background-image: url('../img/jumbo-bg.png');
+background-size: cover;
+background-position: center;
+height: 600px;
+}
+
+/* it-takes-two */
+
+#it-takes-two{
+background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+background-size: cover;
+background-position: center;
+}
+
+/* Nuove Uscite */
+
+#nuove-uscite{
+background-color:#1f1f1f;
+}
+
+#nuove-uscite .cust-card img{
+border-radius: 10%;
+}
+
+/* Playstation Plus */
+
+#playstation-plus{
+background-color: #bebcbb;
+}
+
+#plus,
+#now,
+#it-takes{
+max-width: 50%;
+}
+
+/* Playstation Now */
+
+#playstation-now{
+background-color: #161c3b;
+}
+
+/* Social Media */
+
+a{
+cursor: pointer;
+}
+
+a img{
+max-width: 200px;
+}
+
+/* Footer */
+
+footer{
+background-color: #013e90;
+height: 600px;
+}
+
+footer img{
+width: 100px;
+}
