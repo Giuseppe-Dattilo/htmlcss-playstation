@@ -1,7 +1,8 @@
+
 /* Generics */
 
 section{
-border: 1px dashed blue;
+padding: 30px;
 }
 
 img{
@@ -9,32 +10,79 @@ width: 100%;
 display: block;
 }
 
+p{
+color: #727272;
+font-size: 20px;
+}
+
+.p-small{
+line-height: 20px;
+font-size: 15px;
+}
+ 
+h1{
+margin-bottom: 30px;
+}
+
+h2{
+margin-bottom: 20px;
+}
+
+h6{
+color:  #2486d5;
+margin-top: 50px;
+margin-bottom: 0;
+}
+
 /* Header */
 
 header{
-border: 1px dashed green;
 color: black;
 position: sticky;
 left: 0;
 top: 0;
+z-index: 1;
 }
 
 #logo-sony{
 width: 80px;
 }
 
-/* BORDER DA CANCELLARE!!! */
-
-.row{
-border: 1px dashed dodgerblue;
+#lens{
+width: 25px;
 }
 
-.row > [class^='col']{
-border: 1px dashed red;
+.play-menu img{
+width: 70px;
 }
 
-.row > [class^='off']{
-border: 1px dashed black;
+.play-menu span{
+font-size: 13px;
+}
+
+.support-link a{
+text-decoration: none;
+font-size: 13px;
+}
+
+/* PlayStation 5 */
+
+.move img{
+transition: transform 0.5s;
+}
+
+.move:hover img{ 
+ transform: translateY(-10px);
+ cursor: pointer;
+}
+
+.effect:hover::after{
+content: '';
+background-color: #2486d5;
+height: 3px;
+width: 100%;
+display: block;
+margin: 3px auto;
 }
 
 /* Jumbotron */
@@ -68,18 +116,31 @@ border-radius: 10%;
 
 #playstation-plus{
 background-color: #bebcbb;
+padding: 0 30px;
+}
+
+.btn{
+margin-bottom: 20px;
+}
+
+.btn-cust{
+color: #2061e6;
+background-color: #d9dadc;
+border: 0;
 }
 
 #plus,
 #now,
 #it-takes{
-max-width: 50%;
+max-width: 60%;
+margin-bottom: 30px;
 }
 
 /* Playstation Now */
 
 #playstation-now{
 background-color: #161c3b;
+padding: 0 30px;
 }
 
 /* Social Media */
@@ -96,9 +157,20 @@ max-width: 200px;
 
 footer{
 background-color: #013e90;
-height: 600px;
+min-height: 550px;
+padding:100px 30px;
 }
 
 footer img{
 width: 100px;
+margin-bottom: 10px;
+}
+
+footer a{
+text-decoration: none;
+color: white;
+}
+
+footer li{
+margin-bottom: 10px;
 }
