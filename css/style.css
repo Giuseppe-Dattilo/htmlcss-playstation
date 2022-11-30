@@ -6,7 +6,7 @@ padding: 30px;
 }
 
 img{
-width: 100%;
+max-width: 100%;
 display: block;
 }
 
@@ -72,8 +72,8 @@ transition: transform 0.5s;
 }
 
 .move:hover img{ 
- transform: translateY(-10px);
- cursor: pointer;
+transform: translateY(-10px);
+cursor: pointer;
 }
 
 .effect:hover::after{
@@ -83,6 +83,14 @@ height: 3px;
 width: 100%;
 display: block;
 margin: 3px auto;
+}
+
+.effect img{
+opacity: 0.5; 
+}
+
+.effect:hover img{
+opacity: 1.0;
 }
 
 /* Jumbotron */
